@@ -1,0 +1,124 @@
+
+
+body{
+    font-family:arial;
+    font-size:15px;
+    line-height:1.6em;
+	background-image: url("http://senabisma.polinema.ac.id/gambar/WATERCOLOR.jpg");
+}
+
+li{
+    list-style:none;
+	margin: 4px;
+	font-family: 'Satisfy';
+	color: white;
+}
+
+#navbar>ul>li>a { 
+display: block;
+color: white;
+}
+
+a{
+    text-decoration:none;
+	color: white;
+	font-size: 25px;
+}
+
+#nav {
+	background-color: #375e97;
+	color: white;
+}
+
+#hello2 {
+	font-family: 'Satisfy';
+	font-size: 32px;
+	color: #283655;
+}
+
+#hello {
+	font-family: 'Cabin Sketch';
+}
+
+#btn {
+	background-color: #375e97;
+	color: white;
+	font-family: 'Cabin Sketch';
+	font-size: 24px;
+}
+
+
+#brand {
+	font-size: 28px;
+	font-family: 'Satisfy';
+	color: white;
+}
+
+#para {
+	font-size: 25px;
+	font-family: 'Courgette';
+	color: #375e97;
+}
+
+label{
+    display:inline-block;
+    width:180px;
+}
+
+input[type='text']{
+    width:97%;
+    padding:4px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+input[type='number']{
+    width:50px;
+    padding:4px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+#container{
+    margin: 0 auto;
+    overflow:auto;
+    width:60%;
+}
+
+#demo {
+	color: #375e97;
+}
+
+header {
+    border-bottom:3px solid #f4f4f4 solid;
+}
+
+footer{
+    border-top:3px #f4f4f4 solid;
+    text-align:center;
+    padding-top:5px;
+}
+
+main{
+    padding-bottom:20px;
+}
+
+a.start{
+    display:inline-block;
+    color:#666;
+    border:1px dotted #ccc;
+    padding:6px 13px;
+}
+
+.current{
+    padding:10px;
+    background:#f4f4f4;
+    border:#ccc dotted 1px;
+     margin:20px 0 10px 0;
+}
+
+@media only screen and (max-width:960px){
+    .container{
+	width:80%;
+    }
+}

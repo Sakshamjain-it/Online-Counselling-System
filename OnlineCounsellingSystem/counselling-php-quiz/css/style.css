@@ -1,0 +1,136 @@
+#demo1{
+	font-size: 46px;
+}
+h1 {
+	margin-left: 260px;
+	font-family: 'Satisfy';
+	font-size: 46px;
+	color: #336b87;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	background-color: #336b87;
+	color: #f1f1f2;
+	margin-left: 50%;
+	font-size: 28px;
+	font-family: 'BenchNine';
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+#demo2{
+	font-family: 'BenchNine';
+	font-size: 30px;
+	color: #336b87;
+	margin-left: 340px;
+}
+h2 {
+	margin-left: 310px;
+	font-family: 'BenchNine';
+	font-size: 26px;
+	color: #336b87;
+}
+body{
+    font-family:arial;
+    font-size:15px;
+    line-height:1.6em;
+    background-image: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+}
+
+#demo {
+	font-size: 22px;
+	margin-left: 80px;
+	color: #336b87;
+}
+
+li{
+    list-style:none;
+	font-family: 'Saira Extra Condensed';
+	font-size: 24px;
+	color: #336b87;
+}
+
+a{
+    text-decoration:none;
+}
+
+label{
+    display:inline-block;
+    width:180px;
+}
+
+
+input[type='text']{
+    width:97%;
+    padding:4px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+input[type='number']{
+    width:50px;
+    padding:4px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+}
+
+#container{
+    margin: 0 auto;
+    overflow:auto;
+    width:60%;
+}
+
+header {
+    border-bottom:3px solid #f4f4f4 solid;
+}
+
+footer{
+    border-top:3px #f4f4f4 solid;
+    text-align:center;
+    padding-top:5px;
+}
+
+.btn1 {
+	background-color: #336b87;
+	color: #f1f1f2;
+	margin-left: -320px;
+	font-size: 20px;
+}
+#demo3 {
+	font-family: 'BenchNine';
+	font-size: 30px;
+	color: #336b87;
+}
+
+#demo4 {
+	font-family: 'BenchNine';
+	font-size: 28px;
+	color: #336b87;
+}
+main{
+    padding-bottom:20px;
+}
+
+a.start{
+    display:inline-block;
+    color:#666;
+    border:1px dotted #ccc;
+    padding:6px 13px;
+	background-color: #336b87;
+	color: #f1f1f2;
+}
+
+.current{
+	font-size: 25px;
+    padding:10px;
+    background:#f4f4f4;
+    border:#ccc dotted 1px;
+     margin:20px 0 10px 0;
+	 font-family: 'Satisfy';
+}
+
+@media only screen and (max-width:960px){
+    .container{
+	width:80%;
+    }
+}
